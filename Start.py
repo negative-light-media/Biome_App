@@ -16,6 +16,8 @@ This app visualizes the biome distribution in Minecraft based on various paramet
 
 st.header("Example Data")
 
+
+
 col1, col2 = st.columns(2)
 
 with col1:
