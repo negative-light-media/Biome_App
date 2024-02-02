@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import pyvista as pv
 
 st.set_page_config(layout="wide")
 # Set up the title of the app
@@ -46,6 +47,10 @@ with col2:
         st.pyplot(fig)
     except Exception as e:
         st.error(f"An error occurred: {e}")
+
+
+
+        
 
 # Footer
 st.write("Developed by : ")
